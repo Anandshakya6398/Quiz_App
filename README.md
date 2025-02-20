@@ -7,8 +7,6 @@ A feature-rich quiz application built with ReactJS and Tailwind CSS, utilizing I
 
 ✅ Create and take interactive quizzes
 
-✅ Multiple quiz attempts tracking
-
 ✅ Instant feedback on answers
 
 ✅ Timer-based quizzes for added challenge
@@ -17,7 +15,7 @@ A feature-rich quiz application built with ReactJS and Tailwind CSS, utilizing I
 
 ✅ Fully responsive UI with Tailwind CSS
 
-✅ Deployed on Vercel or Netlify
+✅ Deployed on Netlify
 
 
 🛠️ Tech Stack
@@ -30,7 +28,7 @@ Routing: React Router
 
 State Management: React Hooks (useState, useEffect)
 
-Deployment: Vercel / Netlify
+Deployment: Netlify
 
 
 /quiz-app

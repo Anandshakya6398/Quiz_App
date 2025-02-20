@@ -1,6 +1,8 @@
 Quiz App
 A feature-rich quiz application built with ReactJS and Tailwind CSS, utilizing IndexedDB for storing quiz attempt history.
 
+ Deployed link:- https://anand-quizapp.netlify.app/
+
 🚀 Features 
 
 ✅ Create and take interactive quizzes
@@ -35,9 +37,7 @@ Deployment: Vercel / Netlify
 
 │── /src
 
-│   ├── /components       # Reusable UI components
-
-│   ├── /pages                 # Main application pages
+│   ├── /components         # Reusable UI components
 
 │   ├── /utils                    # IndexedDB and helper functions
 

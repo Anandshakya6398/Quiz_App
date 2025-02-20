@@ -28,14 +28,6 @@ export const saveQuizAttempt = async (quizData) => { // Save a quiz attempt to t
     await store.add(quizData);
     await tx.done;
 }; 
-
-// export const saveQuizAttemptHistory = async (attemptData) => { // Save a quiz attempt to the database store
-//     const db = await initDB();
-//     const tx = db.transaction(QUIZ_ATTEMPT_STORE_NAME, 'readwrite');
-//     const store = tx.objectStore(QUIZ_ATTEMPT_STORE_NAME);
-//     await store.add(attemptData);
-//     await tx.done;
-// };
 export const saveQuizAttemptHistory = async (attemptData) => {
     const dbRequest = indexedDB.open("QuizAppDB", 1);
   

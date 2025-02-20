@@ -1,8 +1,30 @@
-# React + Vite
+Quiz App
+A feature-rich quiz application built with ReactJS and Tailwind CSS, utilizing IndexedDB for storing quiz attempt history.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Create and take interactive quizzes
+✅ Multiple quiz attempts tracking
+✅ Instant feedback on answers
+✅ Timer-based quizzes for added challenge
+✅ IndexedDB integration to store quiz history
+✅ Fully responsive UI with Tailwind CSS
+✅ Deployed on Vercel or Netlify
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Frontend: ReactJS, Tailwind CSS
+Database: IndexedDB (Client-side storage)
+Routing: React Router
+State Management: React Hooks (useState, useEffect)
+Deployment: Vercel / Netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+/quiz-app
+│── /src
+│   ├── /components     # Reusable UI components
+│   ├── /pages          # Main application pages
+│   ├── /utils          # IndexedDB and helper functions
+│   ├── App.jsx         # Root component
+│   ├── main.jsx        # Entry point
+│── /public             # Static assets
+│── tailwind.config.js  # Tailwind CSS config
+│── package.json        # Project dependencies
+│── README.md           # Documentation
